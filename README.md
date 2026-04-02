@@ -43,12 +43,10 @@ Bạn có thể chạy script `test_api.py` để gửi một yêu cầu mẫu:
 python test_api.py
 ```
 
-## Docker (Tùy chọn)
-Nếu bạn có `Dockerfile`, bạn có thể build image:
-```bash
-docker build -t translating-model .
-docker run -p 8000:8000 translating-model
-```
-
 ## Đóng góp
 Mọi đóng góp vui lòng tạo Pull Request hoặc Issue.
+
+## Video demo
+https://github.com/user-attachments/assets/76f13be9-70a5-43a8-a00e-231d4dddc77b
+
+
