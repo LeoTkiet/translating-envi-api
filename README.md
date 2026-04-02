@@ -47,7 +47,8 @@ python test_api.py
 Mọi đóng góp vui lòng tạo Pull Request hoặc Issue.
 
 ## Video demo
-https://github.com/user-attachments/assets/d385fd4a-af8c-4542-bbed-f56d7d0ccbbe
+https://github.com/user-attachments/assets/e11ca5fc-22e3-49ee-9bb9-9cb2c93c207c
+
 
 
 
