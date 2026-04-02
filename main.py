@@ -8,7 +8,7 @@ app = FastAPI()
 class TranslateInput(BaseModel):
     text: str = Field(..., title="Text to translate", min_length=2)
     source_lang: str = Field(default="English", title="Source Language")
-    target_lang: str = Field(default="German", title="Target Language")
+    target_lang: str = Field(default="Vietnamese", title="Target Language")
 
 # global variables for AI
 tokenizer = None
