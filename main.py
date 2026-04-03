@@ -23,12 +23,10 @@ async def load_model():
         model_name = "Helsinki-NLP/opus-mt-en-vi"
         
         # load tokenizer and model
-        # Note: Helsinki-NLP models require 'sentencepiece' and 'sacremoses'
         try:
             tokenizer = AutoTokenizer.from_pretrained(model_name)
         except Exception as e:
             print(f"Error loading tokenizer: {e}")
-            print("Hint: Make sure 'sentencepiece' and 'sacremoses' are installed.")
             raise e
 
         try:
